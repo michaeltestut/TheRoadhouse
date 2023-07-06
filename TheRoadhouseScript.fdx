@@ -20,13 +20,45 @@
       <Text>CUTSCENE:</Text>
     </Paragraph>
     <Paragraph Type="Scene Heading">
-      <SceneProperties Length="2/8" Page="1" Title="">
-        <SceneArcBeats/>
+      <SceneProperties Length="4/8" Page="1" Title="">
+        <SceneArcBeats>
+          <CharacterArcBeat Name="MC">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+              <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Arial" RevisionID="0" Size="12" Style=""></Text>
+            </Paragraph>
+          </CharacterArcBeat>
+          <CharacterArcBeat Name="SARAH">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+              <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Arial" RevisionID="0" Size="12" Style=""></Text>
+            </Paragraph>
+          </CharacterArcBeat>
+        </SceneArcBeats>
       </SceneProperties>
       <Text>Int. Car - night</Text>
     </Paragraph>
     <Paragraph Type="Action">
       <Text>The MC wakes up in a panic. His fiancee, Sarah drives. It is pouring heavy rain outside. The windshield wipers are going full blast and hardly anything can be seen through it.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Sarah looks over at him.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Sarah</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You ok, Babe?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>MC</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Yeah... Yeah, just had a crazy dream. God it’s pouring out.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Sarah</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I know. I think we’re going to have to pull off the freeway for a while. I can’t see a thing.</Text>
     </Paragraph>
     <Paragraph Type="Scene Heading">
       <SceneProperties Length="3/8" Page="1" Title="">
@@ -50,7 +82,7 @@
       <Text>cut to black.</Text>
     </Paragraph>
     <Paragraph Type="Scene Heading">
-      <SceneProperties Length="2 7/8" Page="1" Title="">
+      <SceneProperties Length="2 7/8" Page="2" Title="">
         <SceneArcBeats>
           <CharacterArcBeat Name="BARTENDER">
             <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No">
@@ -309,7 +341,7 @@
 
   <WindowState Height="875" Left="0" Mode="Normal" Top="0" Width="870"/>
 
-  <TextState Scaling="100" Selection="370,370" ShowInvisibles="No"/>
+  <TextState Scaling="100" Selection="578,578" ShowInvisibles="No"/>
 
   <ElementSettings Type="General">
     <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
@@ -965,8 +997,8 @@
   <ListItems/>
 
   <DisplayBoards>
-    <DisplayBoard Height="10000" ScrollOrigin="0,0" Type="Beat" Width="24000" ZoomLevel="100.000"/>
     <DisplayBoard Height="73" ScrollOrigin="0,0" Type="StoryMap" Width="2032" ZoomLevel="100.000"/>
+    <DisplayBoard Height="10000" ScrollOrigin="0,0" Type="Beat" Width="24000" ZoomLevel="100.000"/>
   </DisplayBoards>
 
   <TagData>
@@ -1029,24 +1061,24 @@
     <ChartOptions Identifier="InclusivityAnalysis">
       <FilterSets>
         <FilterSet Default="Yes">
-          <Filter Index="0" Name="Trait" Value="Role">
+          <Filter Index="1" Name="Trait" Value="">
             <Match></Match>
           </Filter>
           <Filter Index="0" Name="Count" Value="MIN">
             <Match>1</Match>
           </Filter>
-          <Filter Index="1" Name="Trait" Value="">
+          <Filter Index="0" Name="Trait" Value="Role">
             <Match></Match>
           </Filter>
         </FilterSet>
         <FilterSet>
-          <Filter Index="0" Name="Trait" Value="">
+          <Filter Index="1" Name="Trait" Value="">
             <Match></Match>
           </Filter>
           <Filter Index="0" Name="Count" Value="MIN">
             <Match>1</Match>
           </Filter>
-          <Filter Index="1" Name="Trait" Value="">
+          <Filter Index="0" Name="Trait" Value="">
             <Match></Match>
           </Filter>
         </FilterSet>
